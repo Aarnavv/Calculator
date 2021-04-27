@@ -172,7 +172,6 @@ window.bind('*',  lambda event, item="×", btn=bt_mult: change_col(item, btn))
 
 
 
-#---------------- DONE --------------------#
 bt_4 = Button(text="4", highlightthickness=0, height=3, borderwidth=0, fg='white',bg='#131313', font=("Arial", 12, "normal"), activebackground="#595959", activeforeground="white", command=lambda: set_exp(value=4))
 bt_4.grid(column=0, row=4, sticky="EW", padx=1, pady=1)
 window.bind('4',  lambda event, item=4, btn=bt_4: change_col(item, btn))
@@ -190,7 +189,7 @@ bt_sub.grid(column=3, row=4, sticky="EW", padx=1, pady=1)
 window.bind('-',  lambda event, item="-", btn=bt_sub: change_col(item, btn))
 
 
-#---------------- DONE --------------------#
+
 bt_1 = Button(text="1", highlightthickness=0, height=3, borderwidth=0, fg='white',bg='#131313', font=("Arial", 12, "normal"), activebackground="#595959", activeforeground="white", command=lambda: set_exp(value=1))
 bt_1.grid(column=0, row=5, sticky="EW", padx=1, pady=1)
 window.bind('1',  lambda event, item=1, btn=bt_1: change_col(item, btn))
